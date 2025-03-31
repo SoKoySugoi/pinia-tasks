@@ -1,29 +1,14 @@
-# pinia-tasks
+To run this application first install the dependencies
+open a terminal and run...
+  npm install
 
-This template should help get you started developing with Vue 3 in Vite.
+then, if you don't have json server installed, 
+inside the terminal run...
+  npm install -g json-server
 
-## Recommended IDE Setup
+next, inside the terminal you will open a json server to host the internal db file stored in the project
+  json-server --watch src/data/db.json
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+finally, use 
+  npm run dev 
+to poke around in the browser
