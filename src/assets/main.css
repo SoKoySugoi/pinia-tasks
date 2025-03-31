@@ -33,7 +33,7 @@ header h1 {
 /* task list */
 .task-list-enter-active,
 .task-list-leave-active {
-  transition: 1.25s ease-in-out;
+  transition: 1.33s ease-in-out;
 }
 .task-list-enter-from,
 .task-list-leave-to {
