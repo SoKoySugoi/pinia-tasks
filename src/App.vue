@@ -21,6 +21,7 @@
     </nav>
 
     <!-- loading -->
+    <transition name="task-list" mode="out-in">
     <div class="loading" v-if="isLoading">Loading tasks...</div>
     <div v-else>
       <!-- task list -->
@@ -33,10 +34,12 @@
       <div class="task-list" v-if="filter === 'favs'">
         <p>{{ favCount }} favorite tasks</p>
         <div v-for="task in favs">
-            <task-details :task="task"/>
+          <task-details :task="task"/>
         </div>
       </div>
     </div>
+    </transition>
+    
 
   </main>
 </template>
