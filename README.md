@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### In a new terminal, Compile JSon Server to Store and Fetch Data
+
+```sh
+json-server -w src/data/db.json
+```
