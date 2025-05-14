@@ -7,7 +7,7 @@ inside the terminal run...
   "npm install -g json-server"
 
 next, inside the terminal you will open a json server to host the internal db file stored in the project
-  "json-server --watch src/data/db.json"
+  "json-server -w src/data/db.json"
 
 finally, use
   "npm run dev" 
