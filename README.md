@@ -1,3 +1,6 @@
+This application is a Pinia tutorial built to practice using the Store Setup model.
+In addition, It utilizes a local JSon file to create persistent data and practice async await functionality.
+
 To run this application first install the dependencies
 open a terminal and run...
   "npm install"
